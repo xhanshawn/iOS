@@ -108,20 +108,47 @@
         <scene sceneID="6Wj-TJ-f6R">
             <objects>
                 <viewController id="EJX-1G-NDy" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="INl-K1-43G"/>
-                        <viewControllerLayoutGuide type="bottom" id="gvD-wQ-V7Z"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="4rZ-VP-dMm">
+                    <button key="view" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Q2G-UG-6Nu">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.64894158852658923" green="0.59422759564027994" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <state key="normal" title="Button">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <segue destination="LR0-XH-FqP" kind="show" id="xdr-BT-QnB"/>
+                        </connections>
+                    </button>
                     <tabBarItem key="tabBarItem" title="Secret" image="user_icon" selectedImage="user_icon" id="Uhh-Bk-wHC"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KJc-bx-Gi9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="920" y="1303"/>
+            <point key="canvasLocation" x="668" y="1417"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="buu-CQ-6hz">
+            <objects>
+                <viewController id="LR0-XH-FqP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zSj-mz-AcY"/>
+                        <viewControllerLayoutGuide type="bottom" id="NZ2-07-0Mc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hcd-o3-EY3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jeb-dr-aed">
+                                <rect key="frame" x="144" y="168" width="42" height="19"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1je-eY-5tb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1362" y="1398"/>
         </scene>
     </scenes>
     <resources>

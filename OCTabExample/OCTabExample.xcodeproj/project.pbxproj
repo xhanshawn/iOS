@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84E77909EA69A617E9893CB3 /* Pods_OCTabExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598A35DB52FAA92F63BDE4F9 /* Pods_OCTabExample.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		F914B6521BA0E1B000088271 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F914B6511BA0E1B000088271 /* main.m */; };
+		F914B6551BA0E1B000088271 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F914B6541BA0E1B000088271 /* AppDelegate.m */; };
+		F914B6581BA0E1B000088271 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F914B6571BA0E1B000088271 /* FirstViewController.m */; };
+		F914B65B1BA0E1B000088271 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F914B65A1BA0E1B000088271 /* SecondViewController.m */; };
+		F914B65E1BA0E1B000088271 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F914B65C1BA0E1B000088271 /* Main.storyboard */; };
+		F914B6601BA0E1B000088271 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F914B65F1BA0E1B000088271 /* Images.xcassets */; };
+		F914B6631BA0E1B000088271 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F914B6611BA0E1B000088271 /* LaunchScreen.xib */; };
+		F914B66F1BA0E1B000088271 /* OCTabExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F914B66E1BA0E1B000088271 /* OCTabExampleTests.m */; };
+		F9C8DF281BA4AAE50026BABF /* YTTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C8DF271BA4AAE50026BABF /* YTTabViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F914B6691BA0E1B000088271 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F914B6441BA0E1B000088271 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F914B64B1BA0E1B000088271;
+			remoteInfo = OCTabExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		598A35DB52FAA92F63BDE4F9 /* Pods_OCTabExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCTabExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8877854AD8516AA4D87193CF /* Pods-OCTabExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCTabExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCTabExample/Pods-OCTabExample.release.xcconfig"; sourceTree = "<group>"; };
+		DCF079FB22B97A06A272112F /* Pods-OCTabExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCTabExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCTabExample/Pods-OCTabExample.debug.xcconfig"; sourceTree = "<group>"; };
+		F914B64C1BA0E1B000088271 /* OCTabExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCTabExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F914B6501BA0E1B000088271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F914B6511BA0E1B000088271 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F914B6531BA0E1B000088271 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F914B6541BA0E1B000088271 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F914B6561BA0E1B000088271 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		F914B6571BA0E1B000088271 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		F914B6591BA0E1B000088271 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F914B65A1BA0E1B000088271 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		F914B65D1BA0E1B000088271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F914B65F1BA0E1B000088271 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F914B6621BA0E1B000088271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F914B6681BA0E1B000088271 /* OCTabExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCTabExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F914B66D1BA0E1B000088271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F914B66E1BA0E1B000088271 /* OCTabExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCTabExampleTests.m; sourceTree = "<group>"; };
+		F9C8DF261BA4AAE50026BABF /* YTTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTTabViewController.h; sourceTree = "<group>"; };
+		F9C8DF271BA4AAE50026BABF /* YTTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTTabViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F914B6491BA0E1B000088271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E77909EA69A617E9893CB3 /* Pods_OCTabExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F914B6651BA0E1B000088271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46105A46134142756105A29F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCF079FB22B97A06A272112F /* Pods-OCTabExample.debug.xcconfig */,
+				8877854AD8516AA4D87193CF /* Pods-OCTabExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A4FF989B2BDB441035ADFF06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				598A35DB52FAA92F63BDE4F9 /* Pods_OCTabExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F914B6431BA0E1B000088271 = {
+			isa = PBXGroup;
+			children = (
+				F914B64E1BA0E1B000088271 /* OCTabExample */,
+				F914B66B1BA0E1B000088271 /* OCTabExampleTests */,
+				F914B64D1BA0E1B000088271 /* Products */,
+				46105A46134142756105A29F /* Pods */,
+				A4FF989B2BDB441035ADFF06 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F914B64D1BA0E1B000088271 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F914B64C1BA0E1B000088271 /* OCTabExample.app */,
+				F914B6681BA0E1B000088271 /* OCTabExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F914B64E1BA0E1B000088271 /* OCTabExample */ = {
+			isa = PBXGroup;
+			children = (
+				F9C8DF261BA4AAE50026BABF /* YTTabViewController.h */,
+				F9C8DF271BA4AAE50026BABF /* YTTabViewController.m */,
+				F914B6531BA0E1B000088271 /* AppDelegate.h */,
+				F914B6541BA0E1B000088271 /* AppDelegate.m */,
+				F914B6561BA0E1B000088271 /* FirstViewController.h */,
+				F914B6571BA0E1B000088271 /* FirstViewController.m */,
+				F914B6591BA0E1B000088271 /* SecondViewController.h */,
+				F914B65A1BA0E1B000088271 /* SecondViewController.m */,
+				F914B65C1BA0E1B000088271 /* Main.storyboard */,
+				F914B65F1BA0E1B000088271 /* Images.xcassets */,
+				F914B6611BA0E1B000088271 /* LaunchScreen.xib */,
+				F914B64F1BA0E1B000088271 /* Supporting Files */,
+			);
+			path = OCTabExample;
+			sourceTree = "<group>";
+		};
+		F914B64F1BA0E1B000088271 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F914B6501BA0E1B000088271 /* Info.plist */,
+				F914B6511BA0E1B000088271 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F914B66B1BA0E1B000088271 /* OCTabExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F914B66E1BA0E1B000088271 /* OCTabExampleTests.m */,
+				F914B66C1BA0E1B000088271 /* Supporting Files */,
+			);
+			path = OCTabExampleTests;
+			sourceTree = "<group>";
+		};
+		F914B66C1BA0E1B000088271 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F914B66D1BA0E1B000088271 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F914B64B1BA0E1B000088271 /* OCTabExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F914B6721BA0E1B000088271 /* Build configuration list for PBXNativeTarget "OCTabExample" */;
+			buildPhases = (
+				9E6038B587418DC4CF0DE4D1 /* Check Pods Manifest.lock */,
+				F914B6481BA0E1B000088271 /* Sources */,
+				F914B6491BA0E1B000088271 /* Frameworks */,
+				F914B64A1BA0E1B000088271 /* Resources */,
+				CE0300874B919E566F1AA0DA /* Embed Pods Frameworks */,
+				B847F8CA1F1D9A1FDF2D6F4E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCTabExample;
+			productName = OCTabExample;
+			productReference = F914B64C1BA0E1B000088271 /* OCTabExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F914B6671BA0E1B000088271 /* OCTabExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F914B6751BA0E1B000088271 /* Build configuration list for PBXNativeTarget "OCTabExampleTests" */;
+			buildPhases = (
+				F914B6641BA0E1B000088271 /* Sources */,
+				F914B6651BA0E1B000088271 /* Frameworks */,
+				F914B6661BA0E1B000088271 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F914B66A1BA0E1B000088271 /* PBXTargetDependency */,
+			);
+			name = OCTabExampleTests;
+			productName = OCTabExampleTests;
+			productReference = F914B6681BA0E1B000088271 /* OCTabExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F914B6441BA0E1B000088271 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = xhanshawn;
+				TargetAttributes = {
+					F914B64B1BA0E1B000088271 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					F914B6671BA0E1B000088271 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = F914B64B1BA0E1B000088271;
+					};
+				};
+			};
+			buildConfigurationList = F914B6471BA0E1B000088271 /* Build configuration list for PBXProject "OCTabExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F914B6431BA0E1B000088271;
+			productRefGroup = F914B64D1BA0E1B000088271 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F914B64B1BA0E1B000088271 /* OCTabExample */,
+				F914B6671BA0E1B000088271 /* OCTabExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F914B64A1BA0E1B000088271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F914B65E1BA0E1B000088271 /* Main.storyboard in Resources */,
+				F914B6631BA0E1B000088271 /* LaunchScreen.xib in Resources */,
+				F914B6601BA0E1B000088271 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F914B6661BA0E1B000088271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9E6038B587418DC4CF0DE4D1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B847F8CA1F1D9A1FDF2D6F4E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCTabExample/Pods-OCTabExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE0300874B919E566F1AA0DA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCTabExample/Pods-OCTabExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F914B6481BA0E1B000088271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F914B65B1BA0E1B000088271 /* SecondViewController.m in Sources */,
+				F914B6551BA0E1B000088271 /* AppDelegate.m in Sources */,
+				F9C8DF281BA4AAE50026BABF /* YTTabViewController.m in Sources */,
+				F914B6581BA0E1B000088271 /* FirstViewController.m in Sources */,
+				F914B6521BA0E1B000088271 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F914B6641BA0E1B000088271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F914B66F1BA0E1B000088271 /* OCTabExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F914B66A1BA0E1B000088271 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F914B64B1BA0E1B000088271 /* OCTabExample */;
+			targetProxy = F914B6691BA0E1B000088271 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F914B65C1BA0E1B000088271 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F914B65D1BA0E1B000088271 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F914B6611BA0E1B000088271 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F914B6621BA0E1B000088271 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F914B6701BA0E1B000088271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F914B6711BA0E1B000088271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F914B6731BA0E1B000088271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCF079FB22B97A06A272112F /* Pods-OCTabExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OCTabExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F914B6741BA0E1B000088271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8877854AD8516AA4D87193CF /* Pods-OCTabExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OCTabExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F914B6761BA0E1B000088271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OCTabExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCTabExample.app/OCTabExample";
+			};
+			name = Debug;
+		};
+		F914B6771BA0E1B000088271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OCTabExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCTabExample.app/OCTabExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F914B6471BA0E1B000088271 /* Build configuration list for PBXProject "OCTabExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F914B6701BA0E1B000088271 /* Debug */,
+				F914B6711BA0E1B000088271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F914B6721BA0E1B000088271 /* Build configuration list for PBXNativeTarget "OCTabExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F914B6731BA0E1B000088271 /* Debug */,
+				F914B6741BA0E1B000088271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F914B6751BA0E1B000088271 /* Build configuration list for PBXNativeTarget "OCTabExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F914B6761BA0E1B000088271 /* Debug */,
+				F914B6771BA0E1B000088271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F914B6441BA0E1B000088271 /* Project object */;
+}

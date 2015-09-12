@@ -1,0 +1,6 @@
+framework module Pods_OCTabExample {
+  umbrella header "Pods-OCTabExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

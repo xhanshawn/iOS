@@ -1,0 +1,16 @@
+# Uncomment this line to define a global platform for your project
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+
+target 'OCTabExample' do
+  pod 'AFNetworking', '~> 2.5'
+  pod 'ORStackView', '~> 2.0'
+  pod 'SwiftyJSON', '~> 2.2.0'
+  pod "youtube-ios-player-helper", "~> 0.1.4"
+end
+
+target 'OCTabExampleTests' do
+
+end
+
