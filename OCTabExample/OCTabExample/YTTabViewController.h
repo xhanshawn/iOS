@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-//#import <YTPlayerView.h>
+#import "YTPlayerView.h"
 
 @interface YTTabViewController : UIViewController
+
+@property(nonatomic, strong) IBOutlet YTPlayerView *tyPlayer;
 
 @end

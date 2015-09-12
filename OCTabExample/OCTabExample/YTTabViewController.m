@@ -10,4 +10,9 @@
 
 @implementation YTTabViewController
 
+-(void)viewDidLoad {
+    [super viewDidLoad];
+    [self.tyPlayer loadWithVideoId:@"M7lc1UVf-VE"];
+    // Do any additional setup after loading the view, typically from a nib.
+}
 @end

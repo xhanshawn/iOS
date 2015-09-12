@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CB2C9A14FF2862DC6200EDA5"
+               BlueprintIdentifier = "332A63B8950C9994D0FBB66D"
                BuildableName = "Pods_OCTabExample.framework"
                BlueprintName = "Pods-OCTabExample"
                ReferencedContainer = "container:Pods.xcodeproj">

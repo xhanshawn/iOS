@@ -2,12 +2,10 @@
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
+link_with 'OCTabExample', 'OCTabExample Tests'
 
 target 'OCTabExample' do
-  pod 'AFNetworking', '~> 2.5'
-  pod 'ORStackView', '~> 2.0'
-  pod 'SwiftyJSON', '~> 2.2.0'
-  pod "youtube-ios-player-helper", "~> 0.1.4"
+  pod 'youtube-ios-player-helper', '~> 0.1.4'
 end
 
 target 'OCTabExampleTests' do

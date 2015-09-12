@@ -52,16 +52,8 @@ code_sign_if_enabled() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework 'Pods-OCTabExample/AFNetworking.framework'
-  install_framework 'Pods-OCTabExample/FLKAutoLayout.framework'
-  install_framework 'Pods-OCTabExample/ORStackView.framework'
-  install_framework 'Pods-OCTabExample/SwiftyJSON.framework'
   install_framework 'Pods-OCTabExample/youtube_ios_player_helper.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework 'Pods-OCTabExample/AFNetworking.framework'
-  install_framework 'Pods-OCTabExample/FLKAutoLayout.framework'
-  install_framework 'Pods-OCTabExample/ORStackView.framework'
-  install_framework 'Pods-OCTabExample/SwiftyJSON.framework'
   install_framework 'Pods-OCTabExample/youtube_ios_player_helper.framework'
 fi

@@ -352,6 +352,7 @@
 /* Begin XCBuildConfiguration section */
 		F914B6701BA0E1B000088271 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCF079FB22B97A06A272112F /* Pods-OCTabExample.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -394,6 +395,7 @@
 		};
 		F914B6711BA0E1B000088271 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8877854AD8516AA4D87193CF /* Pods-OCTabExample.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -452,6 +454,7 @@
 		};
 		F914B6761BA0E1B000088271 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCF079FB22B97A06A272112F /* Pods-OCTabExample.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -471,6 +474,7 @@
 		};
 		F914B6771BA0E1B000088271 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8877854AD8516AA4D87193CF /* Pods-OCTabExample.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

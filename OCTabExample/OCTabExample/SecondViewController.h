@@ -11,7 +11,7 @@
 @interface SecondViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>{
     
     IBOutlet UITableView *tableView;
-    IBOutlet UIView *tableCell;
+
     
 }
 

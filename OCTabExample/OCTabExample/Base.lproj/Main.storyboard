@@ -103,7 +103,6 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
                     <connections>
-                        <outlet property="tableCell" destination="7Zq-A2-FN4" id="MaB-5Q-z1D"/>
                         <outlet property="tableView" destination="X3N-M1-Won" id="f35-CR-f4U"/>
                     </connections>
                 </viewController>
@@ -134,7 +133,7 @@
         <!--Item-->
         <scene sceneID="Hl8-tt-Jdf">
             <objects>
-                <viewController id="Wsa-LC-zEt" sceneMemberID="viewController">
+                <viewController id="Wsa-LC-zEt" customClass="YTTabViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Mfk-Kb-4ES"/>
                         <viewControllerLayoutGuide type="bottom" id="1ru-Hf-18t"/>
@@ -143,18 +142,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6rb-02-8hI" customClass="YTPlayerView">
-                                <rect key="frame" x="0.0" y="63" width="600" height="332"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6rb-02-8hI" customClass="YTPlayerView">
+                                <rect key="frame" x="0.0" y="92" width="600" height="332"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6rb-02-8hI" firstAttribute="leading" secondItem="cCf-Fp-iuD" secondAttribute="leadingMargin" id="dFX-hz-6dn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6rb-02-8hI" secondAttribute="trailing" id="i7p-wI-Cjh"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="w8q-zq-1yW"/>
+                    <connections>
+                        <outlet property="tyPlayer" destination="6rb-02-8hI" id="XTw-j1-CGa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C64-ca-kRY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6" y="736"/>
+            <point key="canvasLocation" x="-70" y="736"/>
         </scene>
     </scenes>
     <resources>

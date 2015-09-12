@@ -25,7 +25,6 @@
     
     UIImageView *icon = nil;
     UIImage *iconImg = [UIImage imageNamed:@"first"];
-    tableCell = [tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
     if(cell == nil){
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:simpleTableIdentifier];
         icon = [[UIImageView alloc] initWithFrame:CGRectMake(10, 10, 50, 50)];

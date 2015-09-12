@@ -4,27 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AFNetworking.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>FLKAutoLayout.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>ORStackView.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-OCTabExample.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>SwiftyJSON.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -42,11 +22,6 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>30FC2624BDCA4CF6F95E15CCD2133429</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>715B78028FBCE102D3A2E08950FF2021</key>
 		<dict>
 			<key>primary</key>
@@ -57,22 +32,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>97DA63A488C60865B6A3977D5DD7F8D5</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>B9A04D3C9B208813656510FDA8ADAE02</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E027512626718579C55CA3BDC87554C1</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F6E6DA3459899FBC89F2B23236FF1824</key>
+		<key>EADB4561FF95A0BD5774EEAE09B25B33</key>
 		<dict>
 			<key>primary</key>
 			<true/>
